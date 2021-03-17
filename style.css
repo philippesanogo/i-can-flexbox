@@ -24,10 +24,22 @@ li {
 
 .flex-list {
   display: flex;
-  flex-wrap: wrap;
 }
 
 .item {
     flex: auto;
-    width: 50%;
 }
+
+/* for tablets device */
+
+@media (max-width: 1000px) {
+    .flex-list {
+        flex-wrap: wrap;
+    }
+
+    .item {
+        width: 50%;
+    }
+}
+
+
