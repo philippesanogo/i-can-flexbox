@@ -42,4 +42,15 @@ li {
     }
 }
 
+/* for smartphone device */
+
+@media (max-width: 670px) {
+    .flex-list {
+        flex-direction: column;
+    }
+    .item {
+        margin: 0 auto;
+    }
+}
+
 
