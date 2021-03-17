@@ -25,3 +25,7 @@ li {
 .flex-list {
   display: flex;
 }
+
+.item {
+    flex: auto;
+}
